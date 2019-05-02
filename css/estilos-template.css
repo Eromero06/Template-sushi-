@@ -6,6 +6,13 @@
 	padding: 0;
 	border: 0;
 }
+body{
+	font-family: 'josefin_light';
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'josefin_semibold';
+}
 
 nav{
 	width: 100%;
@@ -59,24 +66,175 @@ div#centrarNav, div#centrarHeader, div#centrarPromo, div#centrarContenidos, div#
 
 div#centrarNav img{
 	float: left;
-	padding-left: 95px;
-	padding-top: 19px;
+	padding-left: 15px;
+	padding-top: 20px;
 	padding-bottom: 17px;
 }
 
 ul#menuPrincipal{
 	float: left;
-	margin-left: 62px;
-	margin-top: 24px;
+	margin-left: 60px;
+	margin-top: 20px;
 	list-style: none;
 }
 
 ul#menuPrincipal li{
-	float: right;
-	margin-left: 15px;
+	float: left;
+	margin-left: 43px;
 }
 
 ul#menuPrincipal li a{
 	color: #262626;
-	font-size: 22px;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+ul#menuPrincipal li a:hover{
+	color: #FF5E60;
+}
+
+ul#socialesTop{
+	float: right;
+	margin-right: 15px;
+	margin-top: 25px;
+	list-style: none;
+}
+
+ul#socialesTop li{
+	float: left;
+	margin-left: 20px;
+}
+
+div#Face{
+	width: 11px;
+	height: 21px;
+	background-image: url("../img/redes/faceWhite.svg");
+}
+div#face:hover{
+	background-image: url("../img/redes/faceHover.svg");
+}
+div#insta{
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/redes/inwhite.svg");
+	margin-top: 3px;
+}
+div#instangram:hover{
+	background-image: url("../img/redes/inHover.svg");
+}
+div#twitter{
+	width: 22px;
+	height: 18px;
+	background-image: url("../img/redes/twitterWhite.svg");
+	margin-top: 3px;
+}
+div#twitter:hover{
+	background-image: url("../img/redes/twitterHover.svg")
+}
+
+div#boxPromo{
+	background-color: rgba(0,0,0,0.35);
+	position: absolute;
+	width: 477px;
+	height: 158px;
+	left: 630px;
+	top: 121px;
+}
+
+div#boxPromo h2{
+	color: #A1C133;
+	font-size: 30px;
+	font-weight: 100;
+	text-align: right;
+	padding-bottom: 32px;
+}
+
+div#boxPromo p{
+	color: #000000;
+	text-align: right;
+	font-size: 25px;
+	font-weight: 100;
+}
+
+div#boxMapa{
+	width: 720px;
+	height: 285px;
+	background-color: #A1C133;
+	position: absolute;
+	top: 112px;
+	left: 236px;
+} 
+
+iframe#mapa{
+	margin-left: 22px;
+	margin-top: -60px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
+
+div.footerA, div.footerB{
+	height: 110px;
+	background-color: rgba(103,135,153,0.77);
+	float: left;
+	margin-top: 60px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+div.footerA{
+	width: 174px;
+}
+
+div.footerB{
+	width: 276px;
+}
+
+ul#menufooter{
+	float: left;
+	list-style: none;
+}
+
+ul#menufooter a{
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+div#socialesFooter{
+	float: left;
+	list-style: none;
+}
+
+ul#socialesFooter li{
+	float: left;
+}
+ul#socialesFooter a{
+	float: left;
+	margin-bottom: 10px;
+}
+
+div#face2{
+	width: 11px;
+	height: 21px;
+	background-image: url("../img/redes/faceWhite.svg");
+}
+div#face2:hover{
+	background-image: url("../img/redes/faceHover.svg");
+}
+div#instagram2{
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/redes/inwhite.svg");
+	margin-top: 3px;
+}
+div#instagram2:hover{
+	background-image: url("../img/redes/inHover.svg");
+}
+div#twitter2{
+	width: 22px;
+	height: 18px;
+	background-image: url("../img/redes/twitterWhite.svg");
+	margin-top: 3px;
+}
+div#twitter2:hover{
+	background-image: url("../img/redes/twitterHover.svg")
 }
