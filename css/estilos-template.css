@@ -59,7 +59,6 @@ footer{
 div#centrarNav, div#centrarHeader, div#centrarPromo, div#centrarContenidos, div#centrarUbicacion, div#centrarFooter{
 	width: 1200px;
 	height: 100%;
-	background-color: rgba(191,35,37,0.35);
 	margin: 0 auto;
 	position: relative;
 }
@@ -133,7 +132,6 @@ div#twitter:hover{
 }
 
 div#boxPromo{
-	background-color: rgba(0,0,0,0.35);
 	position: absolute;
 	width: 477px;
 	height: 158px;
@@ -173,7 +171,6 @@ iframe#mapa{
 
 div.footerA, div.footerB{
 	height: 110px;
-	background-color: rgba(103,135,153,0.77);
 	float: left;
 	margin-top: 60px;
 	margin-left: 12px;
@@ -193,29 +190,34 @@ ul#menufooter{
 	list-style: none;
 }
 
+ul#menufooter li{
+	margin-bottom: 5px;
+}
+
 ul#menufooter a{
 	color: white;
 	font-size: 15px;
 	text-decoration: none;
 }
-
-div#socialesFooter{
-	float: left;
+ul#socialesFooter{
 	list-style: none;
 }
-
 ul#socialesFooter li{
-	float: left;
+	margin-bottom: 15px;
 }
 ul#socialesFooter a{
-	float: left;
-	margin-bottom: 10px;
+	text-decoration: none;
+	color: white
 }
-
+ul#socialesFooter a:hover{
+	color: #FF5E60;
+}
 div#face2{
 	width: 11px;
 	height: 21px;
 	background-image: url("../img/redes/faceWhite.svg");
+	float: left;
+	margin-right: 15px;
 }
 div#face2:hover{
 	background-image: url("../img/redes/faceHover.svg");
@@ -224,7 +226,8 @@ div#instagram2{
 	width: 20px;
 	height: 20px;
 	background-image: url("../img/redes/inwhite.svg");
-	margin-top: 3px;
+	float: left;
+	margin-right: 15px;
 }
 div#instagram2:hover{
 	background-image: url("../img/redes/inHover.svg");
@@ -233,8 +236,51 @@ div#twitter2{
 	width: 22px;
 	height: 18px;
 	background-image: url("../img/redes/twitterWhite.svg");
-	margin-top: 3px;
+	float: left;
+	margin-right: 15px;
 }
 div#twitter2:hover{
 	background-image: url("../img/redes/twitterHover.svg")
+}
+
+div.footerB h5{
+	text-align: left;
+	font-size: 14px;
+	margin-bottom: 15px;
+	color: white;
+}
+input#email{
+	width: 180px;
+	height: 40px;
+	border: solid 1px white;
+	border-radius: 4px 0px 0px 4px;
+	background-color: transparent;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	text-align: center;
+}
+::-webkit-input-placeholder{color: white;} /* Safari & Crome*/
+::-moz-input-placeholder{color: white;} /* Mozila Firefox*/
+::-ms-input-placeholder{color: white;} /* Microsoft IE o Edge*/
+::-o-input-placeholder{color: white;} /* Opera*/
+input-placeholder{color: white;} /*UNIVERSAL*/
+
+input#enviar{
+	width: 70px;
+	height: 45px;
+	background-color: white;
+	color: blue;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+input#enviar:hover{
+	background-color: #FE4103;
+	color: white;
+}
+div.footerB p{
+	color: white;
+	text-align: left;
+	font-size: 14px;
 }
