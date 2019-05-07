@@ -4,13 +4,14 @@
 section#contenidos{
 	height: 830px;
 }
+
+
 div#boxAcordeon{
 	position: absolute;
 	width: 582px;
 	height:558px;
 	left: 0px;
 	top: 148px;
-	background-color: pink;
 }
 div#boxTapa{
 	position: absolute;
@@ -18,7 +19,39 @@ div#boxTapa{
 	height:558px;
 	left: 610px;
 	top: 148px;
-	background-color: pink;
 }
+
+div#Accordion1 img{
+	float: left;
+	margin-right: 20px;
+}
+div#Accordion1 h4{
+	margin: 20px 0;
+	text-transform: uppercase;
+	color: #FF5E60;
+	font-size: 18px;	
+}
+div#Accordion1 p{
+	color: #FF5E60;
+	font-size: 12px;
+}
+div#Tabs1 p{
+	-webkit-column-count:2;
+	-webkit-column-gap: 15px;
+	-moz-column-count:2;
+	-moz-column-gap: 15px;
+	column-count: 2;
+	column-gap: 15px;
+	color: #FF5E60;
+	font-size: 12PX;
+	margin-top: 20PX;
+}
+div#Tabs1 img{
+	margin:0 auto;
+	display: block;
+}	
+	
+
+
 
 
