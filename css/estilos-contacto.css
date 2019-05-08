@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ection#contenidos{
+	height: 830px;
+}
+
+div#formulario{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	top: 163px;
+	left: 102px;
+}
+
+div#direccion{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	top: 163px;
+	left: 700px;
+}
+
+div#formulario table{
+	color: white;
+	font-size: 20px;
+}
+table{
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.campo{
+	width: 206px;
+	height: 40px;
+	border: solid 1px #D0E542;
+	border-radius: 6px;
+	background-color: transparent;
+	font-weight: 100;
+	font-size: 20px;
+	color: white;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+#altura{
+	height: 50px;
+	padding-top: 10px;
+	resize: none;
+}
+.enviar{
+	width: 94px;
+	height: 33px;
+	background-color: #D0E542;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	float: right;
+	cursor: pointer;
+	margin-right: 45px;
+}
+.enviar:hover{
+	background-color: #FF5E60;
+	color: #B14E80;
+}
+::-webkit-input-placeholder{color: white;} /* Safari & Crome*/
+::-moz-input-placeholder{color: white;} /* Mozila Firefox*/
+::-ms-input-placeholder{color: white;} /* Microsoft IE o Edge*/
+::-o-input-placeholder{color: white;} /* Opera*/
+input-placeholder{color: white;} /*UNIVERSAL*/
+
+div#direccion img{
+	padding-left: 122px;
+}
+div#direccion h6{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+div#direccion p{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+
