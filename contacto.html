@@ -2,6 +2,10 @@
 <html><!-- InstanceBegin template="/Templates/Plantilla-sushi.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="UTF-8">
+<link rel="icon" type="image/png" href="img/favicon.png" size="16x16">
+<link rel="shortcut icon" type="image/png" href="img/favicon.png" size="16x16">
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" size="16x16">
+<link rel="icon" type="image/x-icon" href="img/favicon.ico" size="16x16">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Template Sushi</title>
 <!-- InstanceEndEditable -->
@@ -67,30 +71,37 @@
 			<!-- InstanceBeginEditable name="Area de contenidos" -->
 			<h2 class="titulo">CONTACTO</h2>
 			<div id="formulario">
+				<form action="PHPMailer/contacto.php" method="post">
 				<table width="400" border="0">
 				  <tbody>
 					<tr>
 					  <td>Nombre:</td>
-					  <td><input type="text" class="campo" placeholder="John Doe"></td>
+					  <td><input type="text" class="campo" placeholder="John Doe" name="nombre" required></td>
 					</tr>
 					<tr>
 					  <td>Email</td>
-					  <td><input type="email" class="campo" placeholder="ejemplo@gmail.com"></td>
+					  <td><input type="email" class="campo" placeholder="ejemplo@gmail.com" name="email" required></td>
 					</tr>
 					<tr>
 					  <td>Teléfono</td>
-					  <td><input type="tel" class="campo" placeholder="5555-5555"></td>
+					  <td><input type="tel" class="campo" placeholder="5555-5555" name="telefomo" required></td>
 					</tr>
 					<tr>
 					  <td>Comentarios</td>
-					  <td><textarea class="campo" id="altura" placeholder="Dejanos tus comentarios"></textarea></td>
+					  <td><textarea class="campo" id="altura" placeholder="Dejanos tus comentarios" name="comentario" required></textarea></td>
 					</tr>
-					<tr>
+					  <td>&nbsp;</td> <!--para un aviso en lista aqui queda en blanco-->
+					  <td><input type="checkbox" id="aviso" value="Acepto el aviso" name="aviso" required>
+					  <label for="aviso">Acepto aviso de Privacidad</label>
+					  </td>
+					  <tr>
 					  <td>&nbsp;</td>
 					  <td><input type="submit" class="enviar"></td>
 					</tr>
 				  </tbody>
 				</table>
+				</form>	
+	
 			</div>
 			<div id="direccion">
 				<img src="img/sushi_logo.png" width="139">

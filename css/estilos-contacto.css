@@ -81,7 +81,8 @@ div#direccion h6{
 div#direccion p{
 	color: white;
 	text-align: center;
-	font-size: 20px;
+	font-size: 28px;
+	width: 300px;
 }
 
 
