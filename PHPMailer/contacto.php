@@ -38,10 +38,10 @@ $mail->isSMTP();
 // Si la cuenta es de Hotmail
 // $mail->Host = 'smtp.live.com';
 
-$mail->Host = 'ssl://smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->Host = 'mail.study8center.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'Edgar Romero';                 // SMTP username
-$mail->Password = 'loco210684';                           // SMTP password
+$mail->Username = 'alumnos@study8center.com';                 // SMTP username
+$mail->Password = 'Alumnos-pruebas';                           // SMTP password
 $mail->SMTPSecure = 'ssl';                           // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
 

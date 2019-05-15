@@ -16,16 +16,19 @@ h1,h2,h3,h4,h5,h6{
 
 nav{
 	width: 100%;
-	height: 70px;
+	height: 85px;
 	background-color: #E9ED58;
 }
 header{
 	width: 100%;
-	height: 600px;
+	height: auto;
+	background-color: white;
+	/*
 	background-image: url("../img/header.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center bottom;
+	*/
 }
 section#promo{
 	width: 100%;
@@ -55,19 +58,22 @@ footer{
 	height: 200px;
 	background-color: #A1C133;
 }
+section#topMenu{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+section#topMenu img{
+	float: left;
+	margin-left: 15px;
+	margin-top: 20px;
+}
 
-div#centrarNav, div#centrarHeader, div#centrarPromo, div#centrarContenidos, div#centrarUbicacion, div#centrarFooter{
+div#centrarNav, div#centrarHeader, div#centrarPromo, div#centrarContenidos, div#centrarUbicacion, div#centrarFooter,#centrarTop{
 	width: 1200px;
 	height: 100%;
 	margin: 0 auto;
 	position: relative;
-}
-
-div#centrarNav img{
-	float: left;
-	padding-left: 15px;
-	padding-top: 20px;
-	padding-bottom: 17px;
 }
 
 ul#menuPrincipal{
@@ -109,7 +115,7 @@ div#Face{
 	height: 21px;
 	background-image: url("../img/redes/faceWhite.svg");
 }
-div#face:hover{
+div#Face:hover{
 	background-image: url("../img/redes/faceHover.svg");
 }
 div#insta{
@@ -118,7 +124,7 @@ div#insta{
 	background-image: url("../img/redes/inwhite.svg");
 	margin-top: 3px;
 }
-div#instangram:hover{
+div#insta:hover{
 	background-image: url("../img/redes/inHover.svg");
 }
 div#twitter{
